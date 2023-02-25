@@ -16,15 +16,15 @@ The following diagrams should give you a better understading of how it works und
 
 ![variable](./images/v1.png)
 
-In the diagram above, it is easy to see that our sample code creates a `name` binding that points to the value `"fisayo"` with a type of `String`
+In the diagram above, it is easy to see that our sample code creates a **name** binding that points to the value **"fisayo"** with a type of *String*
 
-And once we **create** a variable with the `let` keyword, we bring that variable into existence in the computer memory. Meaning that the line 
+And once we **create** a variable with the *let* keyword, we bring that variable into existence in the computer memory. Meaning that the line 
 ```javascript
 let name // is essentially telling the computer to create a new pointer in memory, 
 // and uses the `=` sign to make it point to a value, like in our image above.
 ``` 
 
-And if we decide to change the value in the future to something else, we can simply call the `binding/variable/identifier` by its name, here its `name`, no need to recreate it, since it already exists in memory. 
+And if we decide to change the value in the future to something else, we can simply call the binding/variable/identifier by its name, here it is called **name**, no need to recreate it, since it already exists in memory. 
 
 So when we run the code 
 ```javascript
@@ -45,7 +45,7 @@ age = 24 // error, assignment to 'constant' variable.
 ```
 ![](./images/v4.png)
 
-In case of the `const`, once the binding is created, it points to the value assigned to it throughout the program's lifecycle. This is to ensure consistency and avoid unwanted reassignment. 
+In case of the **const**, once the binding is created, it points to the value assigned to it throughout the program's lifecycle. This is to ensure consistency and avoid unwanted reassignment. 
 
 ![](./images/v5.png)
 
@@ -56,8 +56,8 @@ In case of the `const`, once the binding is created, it points to the value assi
 
 #### Practice exercises
 
-1. What is the major difference between `let` and `const` keywords.
-2. What is `garbage collection`
+1. What is the major difference between *let* and *const* keywords.
+2. What is *garbage collection*
 3. There is a bug in the code below, fix it!
 ```javascript
 const bestUniversityInNigeria = `University of Ibadan`;
