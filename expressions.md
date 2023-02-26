@@ -11,7 +11,7 @@ The English language has 26 alphabets. A-Z. Although these letters individually 
 - l + g + i + r = lgir
 - l + i + r + g = lirg
 
-Mathematically, we can have 4! arrangements of the word girl, i.e 4 * 3 * 2 * 1 = 24 possible arrangements. But obviously, it's girl that seem to make sense to you the most, which *translates* or *evaluates* to *a female figure, a young female precisely.* The word *girl* can be said to be a variable that points to a certain value in your brain (whichever way the word *girl* translates to you). In summary, it is not the word *girl* that matters, it is the meaning you give to it. If a given word does not have a meaning to you, it is as good as useless. 
+Mathematically, we can have 4! arrangements of the word girl, i.e 4 * 3 * 2 * 1 = 24 possible arrangements. But obviously, it's girl that seem to make sense to you the most, which *translates* or *evaluates* to *a female figure, a young female precisely.* The word *girl* can be said to be a variable that points to a certain value in your brain (whichever way the word *girl* translates to you). In essence, it is not the word *girl* that matters, it is the meaning you give it. If a given word does not have a meaning to you, it is as good as useless. 
 
 <!-- a picture of girl to girl image here -->
 
@@ -43,3 +43,21 @@ In JavaScript, we have two major types of expressions
 
 - Primary expressions
 - Secondary expressions
+
+> The simplest expressions, known as primary expressions, are those that standalone, they do not include any simpler subexpression. Primary expressions are constants or literal values, *certain* language keywords and variable references. <br> <br> JavaScript: The Definitive Guide
+
+From the excerpt above, primary expressions are the most basic type of expressions in JavaScript, i.e, they cannot be subdivided into simpler expressions. Let's look at some example
+
+```javascript
+let string = "happiness";
+let number = 34;
+let isCool = true;
+
+if(isCool) {
+    return number + string;
+}
+```
+
+Nevermind that we are adding a *number* object to a *string* object. In the simple program that we wrote, we have several primary expressions. The first obvious ones are the *constants* and *literals*. Can you identify the constant in this program? What about the literals? Hopefully you got it. *true* is a constant value in every javascript program, and it always evaluates to 1. When you type *true* in program, what the CPU sees is actually 1 and not the literal meaning of true. Where false evaluates to 0. Also, we have the literal values such as expression
+
+<!-- I need to think straight to be able to write this to completion. I am trying to simplify things not confuscate them...I think I need to explain how types are pure objects in JavaScript... -->
