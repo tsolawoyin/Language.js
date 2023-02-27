@@ -8,7 +8,7 @@ First and foremost, we have values of the type **number** and if you run the cod
 ```javascript
 console.log(typeof 45) // number
 ```
-The number types are used for arithmetic operations as you might have guessed. Arithmetic operations such as addition, subtraction, mutliplications, division and modulus. Let's take for instance, you want to write a program that adds the population of two countries together, what you will need is the number type.
+The number types are used for arithmetic operations as you might have guessed. Arithmetic operations such as addition, subtraction, multiplications, division and modulus. Let's take for instance, you want to write a program that adds the population of two countries together, what you will need is the number type.
 
 ```javascript
 let country1 = 2300000;
