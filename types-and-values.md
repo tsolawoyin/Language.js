@@ -38,7 +38,7 @@ so also, when you see *reference*, think
 - *maps* and
 - *sets*
 
-The fundamental difference between these two types is *immutability*. Primitives are immutable, while reference types are mutable. We will discuss these terms in more detail later.
+The fundamental difference between these two types is *immutability*. Primitives are immutable, while reference types are mutable.
 
 #### Additional learning resource
 - [JavaScript, the definitive guide by David flanagan](https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/), *chapter 3*
