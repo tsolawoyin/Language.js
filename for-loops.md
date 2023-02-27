@@ -390,7 +390,7 @@ It is simple.
 
 ![](./images/for-loops/loop34.jpg)
 
-I think this picture says it all. The for loop starts by **initializing** some variable to a value (1). And checks if the *condition* is true. And if true, it enters the statement block and start executing the piece of code line by line until it gets to the end. After which it executes the *after_effect* statement. 
+I think this picture says it all. The for loop starts by **initializing** some variable. And checks if the *condition* is true. And if true, it enters the statement block and start executing the piece of code line by line until it gets to the end. After which it executes the *after_effect* statement. 
 
 Let's get more practical
 
@@ -404,11 +404,13 @@ Let's get more practical
 
 4) initialize a and set its value to 1
 
-5) initialize b and set its value to 2
+5) initialize b and set its value to 10
 
-6) print out the result of their sum to the console
+6) initialize c and set its value to 4
 
-7) after getting to the end, computer adds 1 to i, now i = 1. 
+6) print out the result of *the sum of a and b minus c* to the console
+
+7) after getting to the end, 1 is added to i, now i = 1. 
 
 8) And repeat the process again and again until the condition is false
 
@@ -428,7 +430,7 @@ for(let i = 0; i < 5; i++) {
 }
 ```
 
-How do we come to end up having 
+How do we end up having 
 ```
 9
 9
