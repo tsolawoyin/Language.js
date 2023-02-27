@@ -164,21 +164,22 @@ i.e i = 0 + 2
 
 i = 2
 
-And that is enough information to keep our for loop up and running. You've specified a starting point, which is 0 in our example, and have specified the direction you want the value of i to go. 
+And that is enough information to keep our for loop up and running. You've specified a starting point, which is 0 in our example, and have specified the direction you want the value of **i** to go. 
 
-i.e  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, and forever and ever more. Yes, the computer won't stop counting because we haven't told it when to stop. 
+i.e  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, and forever and ever more. Yes, the computer won't stop counting because we haven't specified when to stop. 
 
-Now the last and final part, in the middle of the semicolon, we write i <= 10.
+Now the last and final part, at the middle of the semicolons, we write i <= 10.
 
 ![](./images/for-loops/loop8.jpg)
 
-Hopefully you know what this code evaluates to. It essentially evaluates to *true* or *false* based on the current value of i. So basically every time before the computer counts, it checks if the condition is true or false. If it is false, it stops counting, and if it is true, it keeps counting.
+Hopefully you know what this code evaluates to. It essentially evaluates to *true* or *false* based on the current value of i. So basically every time before the computer counts, it checks if the condition is true or false. If it is *false*, it **stops** counting, and if it is *true*, it keeps **counting**.
 
 Let's go through the process together.
 
+At the beginning i = 0; 
+
 ![](./images/for-loops/loop9.jpg)
 
-At the beginning i = 0; 
 
 ![](./images/for-loops/loop11.jpg)
 
@@ -366,19 +367,21 @@ since i = 11;
 
 it is now **FALSE**; 
 
-since i greater than 10. and arrow becomes red;
+i is greater than 10. and arrow becomes red;
 
-Loop stops and computer stops counting.
+loop stops and computer stops counting.
 
 Hopefully at this point, you already know how the computer counts. 
 
 ### 2. { statement block }
 
-So far, we discussed for loops without taking account of the statement block, and practically, a for loop cannot work without a statement block, in fact, the program will throw a Syntax error if a statement block is omitted. So let's talk about it.
+So far, we discussed for loops without taking account of the statement block, and practically, a for loop cannot work without a statement block, in fact, the program will throw a Syntax Error if a statement block is omitted. So let's talk about it.
 
 ```javascript
 for(let i = 0; i <= 10; i+=1) {
-    console.log(i);
+    let a = 1;
+    let b = 2;
+    console.log(a + b)
 }
 ```
 Surely, you already know how the counting is done, but how does the counting relate to the statement block?
@@ -409,10 +412,10 @@ Let's get more practical
 
 8) And repeat the process again and again until the condition is false
 
-9) If still confused at this point, refer to [section 1](#1-forinitialize-condition-after_effect)
+9) If still confused at this point, refer to [section 1](#1-forinitialize-condition-after_effect).
 
 
-And that brings us to the end of for loops. 
+And that brings us to the end of *for* loop. 
 
 ### Practice questions
 1.
@@ -435,4 +438,4 @@ How do we come to end up having
 ```
 printed to the console?
 
-2. Can you write a code that prints all the even number between 1 to 100.
+2. Can you write a code that prints all the even numbers between 1 to 100. How easy was it now? If still difficult, read this chapter once more. 
