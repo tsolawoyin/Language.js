@@ -188,3 +188,4 @@ and now age is pointing away and the for/of loop intelligently know the loop has
 
 How awesome it is right? Yeah, for/of is really awesome and you might want to use next time in your code instead of the classical for loop.
 
+Now let's explain how for/of loop work with strings.
