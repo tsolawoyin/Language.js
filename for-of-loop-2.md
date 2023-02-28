@@ -300,7 +300,16 @@ i is updated to be 4
 
 ![](./images/for-of-loops/loop-string-43.jpg)
 
-At this point, we have iterated through all the element in the string, and the for/of lopp is terminated. 
+At this point, we have iterated through all the element in the string, and the for/of loop is terminated.
+
+So if you print the result of frequency, you are going to get an object that looks like this
+
+```javascript
+console.log(frequency) 
+// {m: 1, i: 4, s: 4, p: 2}
+```
+
+![](./images/for-of-loops/final-res.jpg)
 
 Hopefully, you now have a solid understanding of how for/of loop works with strings, in addtion to arrays. 
 
