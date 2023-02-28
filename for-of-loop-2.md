@@ -299,3 +299,26 @@ i = 3 + 1
 i is updated to be 4
 
 ![](./images/for-of-loops/loop-string-43.jpg)
+
+At this point, we have iterated through all the element in the string, and the for/of lopp is terminated. 
+
+Hopefully, you now have a solid understanding of how for/of loop works with strings, in addtion to arrays. 
+
+Before we talk about for/of loop with Map and Set, it would make sense to define what Map and Set is. More on that later.
+
+#### Practice exercise
+
+Study the following code, and answer the question that follows
+
+```javascript
+let result = "";
+let word = "freeCodeCamp";
+
+for(let i = word.length - 1; i >= 0; i--) {
+    result += word[i];
+}
+
+console.log(result) // ?
+```
+
+What is the final answer of the *result* identifier. 
