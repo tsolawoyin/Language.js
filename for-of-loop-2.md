@@ -92,8 +92,6 @@ and checks if the statement is true
 
 is the current value of "letter" in the frequency object? Can you answer that now ?
 
-![](./images/for-of-loops/loop-string-9.jpg)
-
 since it's no again, control jumps again to line 7
 
 ![](./images/for-of-loops/loop-string-15.jpg)
