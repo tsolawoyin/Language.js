@@ -311,7 +311,9 @@ console.log(frequency)
 
 ![](./images/for-of-loops/final-res.jpg)
 
-Hopefully, you now have a solid understanding of how for/of loop works with strings, in addtion to arrays. 
+Hopefully, you now have a solid understanding of how for/of loop works with strings, in addtion to arrays.
+
+https://user-images.githubusercontent.com/100664560/221962821-36f61d17-0768-4c15-ba9a-48bb313c703e.mp4
 
 Before we talk about for/of loop with Map and Set, it would make sense to define what Map and Set is. More on that later.
 
